@@ -9,12 +9,13 @@
     width: 1440px;
     height: 1046px;
     padding: 91px 124px 157px 124px;
-  
+
 }
 
 #header .header {
     width: 365px;
     height: 93px;
+    margin-bottom: 18px;
 }
 
 #header .header h1 {
@@ -51,20 +52,22 @@
     width: 314px;
     height: 315px;
     margin-left: 190px;
-    margin-top: 15px;
+    margin-top: -5px;
 
 }
+
 
 #main .ellipse {
     position: absolute;
     width: 366px;
     height: 59px;
     left: 950px;
-    top: 485px;
+    top: 480px;
     border-radius: 50%;
     background: #EFEFEF;
     z-index: -999;
-    
+
+
 }
 
 #footer {
@@ -135,4 +138,197 @@
 
 .card:nth-child(2) {
     margin-right: 93px;
+}
+
+@media only screen and (max-width: 834px) {
+    .container {
+        width: 834px;
+        height: 633px;
+        padding: 56px 71.63px 180.25px 72px;
+    }
+
+    #header .header {
+        width: 211.4px;
+        height: 53.86px;
+        margin-bottom: 10.42px;
+    }
+
+    #header .header h1 {
+        font-family: Roboto Slab;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 101.38%;
+    }
+
+    #main .main {
+        width: 383.41px;
+        height: 216.61px;
+    }
+
+    #main .main p {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    #main img {
+
+        width: 181.86px;
+        height: 182.44px;
+        margin-left: 110.04px;
+        margin-top: 10px;
+
+    }
+
+    #main .ellipse {
+        position: absolute;
+        width: 211.98px;
+        height: 34.17px;
+        left: 550.39px;
+        top: 293px;
+        z-index: -999;
+        background: #EFEFEF;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    #footer .cards {
+        margin-left: 0;
+        margin-top: 70px;
+    }
+
+    #footer .card .card-head {
+        width: 86.88px;
+        height: 22.59px;
+    }
+
+    #footer .card .card-head p {
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 130%;
+    }
+
+    #footer .card .card-foot {
+        width: 108px;
+        height: 23px;
+    }
+
+    #footer .card .card-foot p {
+
+        font-family: Roboto;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 130%;
+    }
+
+    .card:nth-child(1) {
+        margin-right: 55.02px;
+    }
+
+    .card:nth-child(2) {
+        margin-right: 53.86px;
+    }
+
+}
+
+@media only screen and (max-width:375px) {
+    .container {
+        width: 375px;
+        height: 776px;
+        padding: 56px 30.53px 124px 35px;
+    }
+
+    #header .header {
+        width: 170.08px;
+        height: 43.34px;
+    }
+
+    #header .header h1 {
+
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 101.38%;
+        margin-bottom: 8.39px;
+    }
+
+    #main .main {
+        width: 308.47px;
+        height: 174.27px;
+    }
+
+    #main .main p {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    #main .main #first {
+        margin-bottom: 15px;
+    }
+
+    #main {
+        flex-direction: column;
+    }
+
+    .img-ellipse {
+        width: 170.55px;
+        height: 160.29px;
+        /* margin-right: 103.45px;
+        margin-left: 101px; */
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    #main img {
+        width: 146.32px;
+        height: 146.78px;
+        margin: auto;
+        /* margin-left: 101px;
+        margin-right: 103.45px;
+        margin-top: 40px; */
+    }
+
+    #main .ellipse {
+        position: absolute;
+        width: 170.55px;
+        height: 27.49px;
+        left: 90px;
+        top: 455px;
+        margin-bottom: 45.71px;
+    }
+
+    #footer .cards {
+        flex-wrap: wrap;
+
+    }
+
+    #footer .card .card-head {
+        width: 69.9px;
+        height: 18.17px;
+    }
+
+    #footer .card .card-head p {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 130%;
+    }
+
+    #footer .card .card-foot {
+        width: 86px;
+        height: 18px;
+    }
+
+    #footer .card .card-foot p {
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 130%;
+    }
+
+    .card:nth-child(1) {
+        margin-right: 33.33px;
+        margin-bottom: 34px;
+    }
 }
